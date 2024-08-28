@@ -1,0 +1,4 @@
+- Do not use mock or mock-based testing!
+- Always use pytest for testing (and not unittest)
+- Put ALL slack-related code in the slack.py file.
+- Put All slack-related tests in the slack_tests.py file.

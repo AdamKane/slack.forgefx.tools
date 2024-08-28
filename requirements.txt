@@ -16,3 +16,4 @@ typing_extensions==4.12.2
 uvicorn==0.30.6
 watchfiles==0.23.0
 websockets==13.0
+slack-sdk==3.27.1
