@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "main.py",
+            "src": "slack_api.py",
             "use": "@vercel/python"
         }
     ],
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "main.py"
+            "dest": "slack_api.py"
         }
     ]
 }
