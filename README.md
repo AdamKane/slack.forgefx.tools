@@ -2,7 +2,7 @@
 
 SlackAPI is our in-house Python-based wrapper for the official Slack API, providing an easy-to-use interface for developers to interact with Slack's features.
 
-## Core Features
+## Core Features!
 - Bookmark management (add, update, delete, list)
 - Message sending to specific channels
 - Channel administration (create, invite users, archive/delete)
@@ -32,7 +32,7 @@ SlackAPI is our in-house Python-based wrapper for the official Slack API, provid
 - Run the application: `uvicorn main:app --reload`
 
 ## Testing
-- To run tests, simply run `pytest` from the command line.
+- To run tests, simply run `pytest` from the command line. (or use Ctrl+Shift+T)
 
 ## Contributing
 - We DO NOT use mocks or mock-based testing

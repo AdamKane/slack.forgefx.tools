@@ -2,13 +2,17 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "shell",
-            "label": "Run pytest",
-            "command": "pytest",
+            "label": "Debug Tests",
+            "type": "process",
+            "command": "${command:python.debugInTerminal}",
+            "args": [
+                "-m",
+                "pytest"
+            ],
             "group": "test",
             "presentation": {
                 "reveal": "always",
-                "panel": "new"
+                "panel": "dedicated"
             }
         }
     ]
