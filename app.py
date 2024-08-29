@@ -15,7 +15,7 @@ slack = SlackWrapper()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World?!"}
+    return {"app": "slack.forgefx.tools v2024.08.28-01"}
 
 @app.get("/hello/{name}")
 async def say_hello(name: str):
