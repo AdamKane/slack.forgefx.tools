@@ -1,16 +1,6 @@
 {
     "python.testing.pytestArgs": [
-        ".",
-        "--verbose",
-        "--capture=no",
-        "--tb=short",
-        "--show-capture=all",
-        "--log-file=pytest.log",
-        "--log-level=INFO",
-        "--log-cli-level=INFO",
-        "-s",
-        "-o",
-        "console_output_style=classic"
+        "."
     ],
     "files.exclude": {},
     "python.testing.unittestEnabled": false,
