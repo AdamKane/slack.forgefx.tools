@@ -1,0 +1,13 @@
+Test run at: 2024-08-28 05:07:00 PM
+
+===================================================== test session starts =====================================================
+platform win32 -- Python 3.11.5, pytest-8.3.2, pluggy-1.5.0 -- C:\Repos\slack.forgefx.tools\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Repos\slack.forgefx.tools
+plugins: anyio-4.4.0, asyncio-0.24.0
+asyncio: mode=Mode.STRICT, default_loop_scope=None
+collecting ... collected 1 item
+
+slack_wrapper_test.py::test_get_all_channels PASSED                                                                      [100%]
+
+====================================================== 1 passed in 2.14s ======================================================
