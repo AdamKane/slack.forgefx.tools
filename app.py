@@ -16,7 +16,7 @@ print("hello world, from slack.forgefx.tools")  # This will appear in Vercel log
 
 @app.get("/")
 async def root():
-    return {"app": "slack.forgefx.tools v2024.08.28-01"}
+    return {"app": "slack.forgefx.tools v2024.10.23-01"}
 
 @app.get("/hello/{name}")
 async def say_hello(name: str):
