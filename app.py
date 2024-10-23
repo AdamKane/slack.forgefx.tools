@@ -11,6 +11,7 @@ from slack_wrapper import SlackWrapper
 app = FastAPI()
 slack = SlackWrapper()
 
+print("hello world, from slack.forgefx.tools")  # This will appear in Vercel logs
 
 
 @app.get("/")
